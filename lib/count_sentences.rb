@@ -4,7 +4,7 @@ class String
   
   attr_accessor :sentence
   
-  def sentence?(sentence)
+  def sentence?
     self.sentence.end_with(".") == true 
   end
 
