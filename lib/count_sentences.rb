@@ -2,11 +2,8 @@ require 'pry'
 
 class String
   
-  attr_accessor :sentence
-  
   def sentence?(sentence)
-    @sentence = sentence 
-    self.sentence.end_with(".") == true 
+    self.end_with(".") 
   end
 
   def question?
