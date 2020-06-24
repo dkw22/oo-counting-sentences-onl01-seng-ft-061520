@@ -5,11 +5,7 @@ class String
   attr_accessor :sentence
   
   def sentence?(sentence)
-    if self.sentence.ends_with_period? 
-      return true 
-    else
-      return false
-    end
+    self.sentence.end_with(".") 
   end
 
   def question?
