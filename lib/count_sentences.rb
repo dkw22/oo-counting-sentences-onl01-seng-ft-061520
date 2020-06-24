@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(sentence)
-    if sentence.ends_with?(.) 
+    if sentence.ends_with_period? 
       return true 
     else
       return false
