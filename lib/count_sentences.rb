@@ -1,9 +1,11 @@
 require 'pry'
 
 class String
-
+  
+  attr_accessor :sentence
+  
   def sentence?(sentence)
-    if sentence.ends_with_period? 
+    if self.sentence.ends_with_period? 
       return true 
     else
       return false
